@@ -51,9 +51,9 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 345.0, 161.66999999999996, 29.5, 22.0 ],
-                    "text": "/"
+                    "outlettype": [ "float" ],
+                    "patching_rect": [ 345.0, 161.66999999999996, 40.0, 22.0 ],
+                    "text": "* 1. 1."
                 }
             },
             {
@@ -107,8 +107,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 345.0, 202.0, 51.0, 22.0 ],
-                    "text": "138"
+                    "patching_rect": [ 345.0, 202.0, 116.0, 22.0 ],
+                    "text": "8192."
                 }
             },
             {
