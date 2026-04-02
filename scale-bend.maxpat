@@ -9,8 +9,20 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 120.0, 1000.0, 780.0 ],
+        "rect": [ 143.0, 129.0, 1564.0, 1038.0 ],
         "boxes": [
+            {
+                "box": {
+                    "format": 6,
+                    "id": "obj-2",
+                    "maxclass": "flonum",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 497.6000074148178, 161.66999999999996, 50.0, 22.0 ]
+                }
+            },
             {
                 "box": {
                     "comment": "",
@@ -21,17 +33,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 569.0, 51.0, 30.0, 30.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-20",
-                    "maxclass": "number",
-                    "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "bang" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 478.0, 161.66999999999996, 50.0, 22.0 ]
                 }
             },
             {
@@ -108,7 +109,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 345.0, 202.0, 116.0, 22.0 ],
-                    "text": "8192."
+                    "text": "2048."
                 }
             },
             {
@@ -234,7 +235,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-20", 0 ],
+                    "destination": [ "obj-2", 0 ],
                     "order": 0,
                     "source": [ "obj-3", 0 ]
                 }
