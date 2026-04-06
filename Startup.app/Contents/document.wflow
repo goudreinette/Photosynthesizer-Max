@@ -102,8 +102,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -208,8 +206,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
@@ -223,7 +219,7 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>A7D2C429-D096-4749-B55F-DEBB79163B64</key>
+		<key>3ECBF7B0-E3A4-48A5-99C2-26055351EE9F</key>
 		<dict>
 			<key>from</key>
 			<string>ECCC81CF-F653-4EC8-A20E-A3B62893E489 - ECCC81CF-F653-4EC8-A20E-A3B62893E489</string>
