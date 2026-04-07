@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 2,
+            "revision": 3,
             "architecture": "x64",
             "modernui": 1
         },
@@ -15,7 +15,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-9",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -53,7 +53,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 355.0, 284.0, 29.5, 22.0 ],
-                    "text": "1.5"
+                    "text": "2."
                 }
             },
             {
@@ -180,7 +180,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-3",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -191,7 +191,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-2",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -334,7 +334,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-246",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -557,6 +557,7 @@
                     "source": [ "obj-9", 0 ]
                 }
             }
-        ]
+        ],
+        "autosave": 0
     }
 }
