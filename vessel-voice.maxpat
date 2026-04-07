@@ -13,6 +13,27 @@
         "boxes": [
             {
                 "box": {
+                    "bgmode": 0,
+                    "border": 0,
+                    "clickthrough": 0,
+                    "enablehscroll": 0,
+                    "enablevscroll": 0,
+                    "id": "obj-727",
+                    "lockeddragscroll": 0,
+                    "lockedsize": 0,
+                    "maxclass": "bpatcher",
+                    "name": "Abl.PrismReverb~.maxpat",
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "offset": [ 0.0, 0.0 ],
+                    "outlettype": [ "multichannelsignal", "signal", "signal", "" ],
+                    "patching_rect": [ 189.0, 519.0, 169.0, 124.0 ],
+                    "varname": "Abl.PrismReverb~[5]",
+                    "viewvisibility": 1
+                }
+            },
+            {
+                "box": {
                     "id": "obj-6",
                     "maxclass": "newobj",
                     "numinlets": 0,
@@ -434,7 +455,7 @@
                     "patching_rect": [ 641.0, 434.0, 181.0, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 641.0, 434.0, 181.0, 22.0 ],
-                    "text": "mpeevent 1 1 6 230 0 56"
+                    "text": "mpeevent 1 1 6 230 0 0"
                 }
             },
             {
@@ -469,7 +490,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 189.0, 536.0, 30.0, 30.0 ],
+                    "patching_rect": [ 186.0, 655.0, 30.0, 30.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 189.0, 536.0, 30.0, 30.0 ]
                 }
@@ -521,11 +542,11 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "" ],
-                    "patching_rect": [ 187.0, 101.0, 177.0, 22.0 ],
+                    "patching_rect": [ 187.0, 101.0, 234.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 330.5, 148.0, 92.0, 35.0 ],
-                    "text": "analyseupdown @threshold 1.5"
+                    "presentation_linecount": 3,
+                    "presentation_rect": [ 330.5, 148.0, 95.0, 49.0 ],
+                    "text": "analyseupdown @threshold 1.5 @safety 0"
                 }
             },
             {
@@ -975,7 +996,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-3", 0 ],
+                    "destination": [ "obj-727", 0 ],
                     "source": [ "obj-57", 0 ]
                 }
             },
@@ -1037,6 +1058,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-3", 0 ],
+                    "source": [ "obj-727", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-299", 1 ],
                     "order": 0,
                     "source": [ "obj-728", 0 ]
@@ -1083,6 +1110,23 @@
         ],
         "parameters": {
             "obj-495": [ "vst~[2]", "vst~", 0 ],
+            "obj-727::obj-154": [ "Abl.PrismReverb", "Abl.PrismReverb", 0 ],
+            "obj-727::obj-167": [ "ModOutB", "ModOutB", -1 ],
+            "obj-727::obj-19": [ "Freeze", "Freeze", 0 ],
+            "obj-727::obj-45": [ "ModInALed", "ModInALed", 0 ],
+            "obj-727::obj-47": [ "ModInBLed", "ModInBLed", 0 ],
+            "obj-727::obj-49": [ "ModInA", "ModInA", -1 ],
+            "obj-727::obj-50": [ "ModInB", "ModInB", -1 ],
+            "obj-727::obj-51": [ "Low", "Low", 0 ],
+            "obj-727::obj-52": [ "ModOutA", "ModOutA", -1 ],
+            "obj-727::obj-54": [ "Xover", "Xover", 0 ],
+            "obj-727::obj-55": [ "High", "High", 0 ],
+            "obj-727::obj-59": [ "ModOutALed", "ModOutALed", 0 ],
+            "obj-727::obj-6": [ "Size", "Size", 0 ],
+            "obj-727::obj-60": [ "ModOutBLed", "ModOutBLed", 0 ],
+            "obj-727::obj-8": [ "Mix", "Mix", 0 ],
+            "obj-727::obj-81": [ "Decay", "Decay", 0 ],
+            "obj-727::obj-99": [ "Active", "Active", 0 ],
             "parameterbanks": {
                 "0": {
                     "index": 0,
