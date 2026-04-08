@@ -9,8 +9,351 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 171.0, 92.0, 1510.0, 864.0 ],
+        "rect": [ 34.0, 92.0, 1365.0, 864.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-21",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1303.15, 698.15, 35.0, 22.0 ],
+                    "text": "dac~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-127",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 664.0, 1566.0, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-124",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 503.0, 1309.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-116",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 458.0, 1512.0, 29.5, 22.0 ],
+                    "text": "0"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-100",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "float" ],
+                    "patching_rect": [ 605.0, 1457.0, 46.0, 22.0 ],
+                    "text": "- 1500."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-110",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 605.0, 1490.0, 37.0, 22.0 ],
+                    "text": "delay"
+                }
+            },
+            {
+                "box": {
+                    "format": 6,
+                    "id": "obj-111",
+                    "maxclass": "flonum",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 605.0, 1422.0, 73.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-112",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 10,
+                    "outlettype": [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
+                    "patching_rect": [ 542.0, 1392.0, 129.0, 22.0 ],
+                    "text": "info~ sample-library.17"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-89",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "float" ],
+                    "patching_rect": [ 516.2, 1624.47, 81.0, 22.0 ],
+                    "text": "snapshot~ 10"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-88",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 263.0, 1490.0, 29.5, 22.0 ],
+                    "text": "1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-85",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 414.0, 1620.0, 50.0, 22.0 ],
+                    "text": "0."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 451.0, 1701.0, 150.0, 20.0 ],
+                    "text": "fade in and out time"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 151.33333778381348, 1481.0, 30.0, 22.0 ],
+                    "text": "*~ 1"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-83",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 4,
+                    "outlettype": [ "signal", "signal", "", "" ],
+                    "patching_rect": [ 348.0, 1552.0, 146.0, 22.0 ],
+                    "text": "adsr~ 1500. 500. 1. 1500."
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-38",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 985.0, 1083.0, 35.0, 22.0 ],
+                    "text": "clear"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-27",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 272.3333377838135, 1421.0, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 332.00000989437103, 1293.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-22",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 332.00000989437103, 1323.0, 32.0, 22.0 ],
+                    "text": "0.03"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-74",
+                    "maxclass": "newobj",
+                    "numinlets": 4,
+                    "numoutlets": 0,
+                    "patching_rect": [ 112.00000445048013, 1563.0, 75.0, 22.0 ],
+                    "text": "dac~ 1 2 3 4"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-73",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 149.33333778381348, 1433.3333760499954, 34.0, 22.0 ],
+                    "text": "*~ 1."
+                }
+            },
+            {
+                "box": {
+                    "format": 6,
+                    "id": "obj-70",
+                    "maxclass": "flonum",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 368.00001096725464, 1473.3333772420883, 50.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
+                    "floatoutput": 1,
+                    "id": "obj-71",
+                    "maxclass": "slider",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 332.00000989437103, 1352.0000402927399, 20.0, 140.0 ],
+                    "size": 1.0
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-68",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "signal" ],
+                    "patching_rect": [ 1260.800018787384, 861.6000128388405, 69.0, 22.0 ],
+                    "text": "sfrecord~ 2"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-42",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3665.333442568779, 1201.3333691358566, 85.0, 22.0 ],
+                    "text": "s ranger-015A"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-43",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3541.333438873291, 1201.3333691358566, 85.0, 22.0 ],
+                    "text": "s ranger-F5FF"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-44",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3433.33343565464, 1201.3333691358566, 87.0, 22.0 ],
+                    "text": "s ranger-8D5E"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-46",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3329.3334325551987, 1201.3333691358566, 83.0, 22.0 ],
+                    "text": "s ranger-0365"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-47",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3229.3334295749664, 1201.3333691358566, 85.0, 22.0 ],
+                    "text": "s ranger-3AF6"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-48",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3121.3334263563156, 1201.3333691358566, 86.0, 22.0 ],
+                    "text": "s ranger-82AA"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 3025.3334234952927, 1201.3333691358566, 83.0, 22.0 ],
+                    "text": "s ranger-5995"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-66",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 2921.333420395851, 1201.3333691358566, 87.0, 22.0 ],
+                    "text": "s ranger-C16E"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-67",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 2829.3334176540375, 1201.3333691358566, 83.0, 22.0 ],
+                    "text": "s ranger-0018"
+                }
+            },
             {
                 "box": {
                     "id": "obj-41",
@@ -28,7 +371,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 601.0, 985.333362698555, 61.0, 22.0 ],
+                    "patching_rect": [ 597.5, 941.0, 61.0, 22.0 ],
                     "text": "savebang"
                 }
             },
@@ -84,7 +427,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 688.0000205039978, 1194.6667022705078, 50.0, 22.0 ]
+                    "patching_rect": [ 576.0000171661377, 1194.6667022705078, 50.0, 22.0 ]
                 }
             },
             {
@@ -94,7 +437,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 945.3333615064621, 1168.666652917862, 96.0, 22.0 ],
+                    "patching_rect": [ 945.0, 1164.5000346899033, 96.0, 22.0 ],
                     "text": "prepend append"
                 }
             },
@@ -114,13 +457,13 @@
                     "fontname": "Arial",
                     "fontsize": 12.0,
                     "id": "obj-25",
-                    "items": [ "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_03_fx_1shot", ",", "sample-library.4", "New_Sample_03_fx_shorter_reverb_1shot", ",", "sample-library.5", "New_Sample_05_fx_loop", ",", "sample-library.6", "New_Sample_07_fx_1shot", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", ",", "sample-library.13", "Sample_14_fx_1shot", ",", "sample-library.14", "Sample_15_fx_loop", ",", "sample-library.15", "Sample_19_clean_loop", ",", "sample-library.16", "Sample_19_fx_loop", ",", "sample-library.17", "Sample_20_fx_loop", ",", "sample-library.18", "Sample_23_fx_loop", ",", "done" ],
+                    "items": [ "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done", ",", "sample-library.1", "New_Sample_01_fx_1shot", ",", "sample-library.2", "New_Sample_02_fx_1shot", ",", "sample-library.3", "New_Sample_05_fx_loop", ",", "sample-library.4", "New_Sample_07_fx_1shot", "copy", ",", "sample-library.5", "New_Sample_07_fx_1shot", ",", "sample-library.6", "Sample_03_fx_loop", "copy", ",", "sample-library.7", "Sample_03_fx_loop", ",", "sample-library.8", "Sample_04_fx_loop", ",", "sample-library.9", "Sample_06_fx_1shot", ",", "sample-library.10", "Sample_10_fx_loop", ",", "sample-library.11", "Sample_12_fx_loop", ",", "sample-library.12", "Sample_13_fx_1shot", "copy", ",", "sample-library.13", "Sample_13_fx_1shot", ",", "sample-library.14", "Sample_14_fx_1shot", ",", "sample-library.15", "Sample_15_fx_loop", ",", "sample-library.16", "Sample_19_clean_loop", ",", "sample-library.17", "Sample_19_fx_loop", ",", "sample-library.18", "Sample_20_fx_loop", ",", "sample-library.19", "Sample_23_fx_loop", ",", "done" ],
                     "maxclass": "chooser",
                     "numinlets": 1,
                     "numoutlets": 6,
                     "outlettype": [ "", "", "", "", "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 945.0, 1205.0, 397.0, 298.0 ]
+                    "patching_rect": [ 945.0, 1209.0, 397.0, 298.0 ]
                 }
             },
             {
@@ -410,7 +753,7 @@
                     "numoutlets": 1,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 2004.0, 2908.0, 1036.0, 792.9653451442719 ],
+                    "patching_rect": [ 2004.0, 2718.0, 1036.0, 792.9653451442719 ],
                     "varname": "vessel-voice[6]",
                     "viewvisibility": 1
                 }
@@ -463,7 +806,7 @@
                     "numoutlets": 4,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "multichannelsignal", "signal", "signal", "" ],
-                    "patching_rect": [ 1212.0, 4384.0, 169.0, 124.0 ],
+                    "patching_rect": [ 1266.666704416275, 4133.333456516266, 169.0, 124.0 ],
                     "varname": "Abl.PrismReverb~[5]",
                     "viewvisibility": 1
                 }
@@ -541,7 +884,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2937.3334208726883, 2635.0000789165497, 86.6665791273117, 22.0 ],
-                    "text": "1.255322"
+                    "text": "1.937357"
                 }
             },
             {
@@ -552,7 +895,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2718.666747689247, 2641.5000789165497, 59.0, 22.0 ],
-                    "text": "1.143257"
+                    "text": "1.934032"
                 }
             },
             {
@@ -563,7 +906,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2514.6667416095734, 2636.1667454242706, 64.00000190734863, 22.0 ],
-                    "text": "1.00001"
+                    "text": "1.938188"
                 }
             },
             {
@@ -574,7 +917,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2309.33340215683, 2642.6667454242706, 59.0, 22.0 ],
-                    "text": "1.97739"
+                    "text": "1.974408"
                 }
             },
             {
@@ -585,7 +928,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2113.3333963155746, 2628.5, 66.66666865348816, 22.0 ],
-                    "text": "1.978173"
+                    "text": "1.944839"
                 }
             },
             {
@@ -596,7 +939,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1910.6667236089706, 2628.5, 72.00000214576721, 22.0 ],
-                    "text": "1.982538"
+                    "text": "1.977"
                 }
             },
             {
@@ -607,7 +950,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1701.6666653752327, 2592.0000772476196, 85.00005453824997, 22.0 ],
-                    "text": "1.976378"
+                    "text": "1.974579"
                 }
             },
             {
@@ -648,7 +991,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 4494.0, 5424.0, 568.0, 87.0 ],
+                    "patching_rect": [ 4168.0, 5480.0, 568.0, 87.0 ],
                     "text": "3"
                 }
             },
@@ -748,7 +1091,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1976.0, 1294.0, 63.0, 22.0 ],
+                    "patching_rect": [ 1980.0, 1294.0, 63.0, 22.0 ],
                     "text": "s vessel-a"
                 }
             },
@@ -798,7 +1141,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1212.0, 4538.0, 45.0, 22.0 ],
+                    "patching_rect": [ 1266.666704416275, 4288.000127792358, 45.0, 22.0 ],
                     "text": "dac~ 1"
                 }
             },
@@ -903,8 +1246,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 553.5876325368881, 584.0, 29.5, 22.0 ],
-                    "text": "0.8"
+                    "patching_rect": [ 553.5876325368881, 584.0, 32.0, 22.0 ],
+                    "text": "0.32"
                 }
             },
             {
@@ -1107,7 +1450,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 672.0000200271606, 985.333362698555, 58.0, 22.0 ],
+                    "patching_rect": [ 672.0000200271606, 941.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -1195,8 +1538,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 805.5876325368881, 584.0, 39.0, 22.0 ],
-                    "text": "0.125"
+                    "patching_rect": [ 805.5876325368881, 584.0, 29.5, 22.0 ],
+                    "text": "0."
                 }
             },
             {
@@ -1533,7 +1876,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2642.0, 1922.0, 50.0, 22.0 ],
-                    "text": "20"
+                    "text": "1"
                 }
             },
             {
@@ -2088,7 +2431,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 851.5876325368881, 740.0, 124.00000369548798, 22.0 ],
-                    "text": "0.125"
+                    "text": "0."
                 }
             },
             {
@@ -2557,7 +2900,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2848.0, 2560.0, 75.0885922908783, 22.0 ],
-                    "text": "61.59"
+                    "text": "67.226881"
                 }
             },
             {
@@ -2612,7 +2955,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2636.0, 2564.0, 75.0885922908783, 22.0 ],
-                    "text": "42.76"
+                    "text": "46.8"
                 }
             },
             {
@@ -2677,7 +3020,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2430.0, 2560.0, 75.0885922908783, 22.0 ],
-                    "text": "11.69"
+                    "text": "13.4"
                 }
             },
             {
@@ -2742,7 +3085,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2224.0, 2560.0, 75.0885922908783, 22.0 ],
-                    "text": "467.782473"
+                    "text": "478.52"
                 }
             },
             {
@@ -2797,7 +3140,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2024.0, 2564.0, 75.0885922908783, 22.0 ],
-                    "text": "28.620367"
+                    "text": "31.44"
                 }
             },
             {
@@ -2862,7 +3205,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1826.0, 2560.0, 75.0885922908783, 22.0 ],
-                    "text": "392.887511"
+                    "text": "418.721151"
                 }
             },
             {
@@ -2960,7 +3303,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1614.0, 2560.0, 103.0, 22.0 ],
-                    "text": "363.321145"
+                    "text": "383.89118"
                 }
             },
             {
@@ -3015,7 +3358,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1408.0, 2560.0, 75.0885922908783, 22.0 ],
-                    "text": "59.24"
+                    "text": "76.51"
                 }
             },
             {
@@ -3026,7 +3369,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1490.6667110919952, 2564.0, 73.33333551883698, 22.0 ],
-                    "text": "1.986417"
+                    "text": "1.934863"
                 }
             },
             {
@@ -3091,7 +3434,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1210.0, 2560.0, 84.0, 22.0 ],
-                    "text": "14.51"
+                    "text": "15.72"
                 }
             },
             {
@@ -3102,7 +3445,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1304.0000388622284, 2560.0, 71.9999611377716, 22.0 ],
-                    "text": "1.987671"
+                    "text": "1.936526"
                 }
             },
             {
@@ -3134,7 +3477,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1582.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "C1"
+                    "text": "C2"
                 }
             },
             {
@@ -3145,7 +3488,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1532.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "C2"
+                    "text": "D2"
                 }
             },
             {
@@ -3156,7 +3499,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1484.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "D#2"
+                    "text": "G2"
                 }
             },
             {
@@ -3167,7 +3510,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1432.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "G2"
+                    "text": "G3"
                 }
             },
             {
@@ -3178,7 +3521,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1392.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "D#3"
+                    "text": "A#3"
                 }
             },
             {
@@ -3189,7 +3532,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1348.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "F3"
+                    "text": "G#3"
                 }
             },
             {
@@ -3200,7 +3543,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1302.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "C4"
+                    "text": "D#4"
                 }
             },
             {
@@ -3211,7 +3554,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1258.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "D#4"
+                    "text": "F4"
                 }
             },
             {
@@ -3222,7 +3565,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1216.0, 2332.0, 37.33333444595337, 22.0 ],
-                    "text": "C5"
+                    "text": "G4"
                 }
             },
             {
@@ -3581,7 +3924,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1326.0, 2950.0, 50.0, 22.0 ],
-                    "text": "8"
+                    "text": "4"
                 }
             },
             {
@@ -3603,7 +3946,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1282.0, 2916.0, 99.33333557844162, 22.0 ],
-                    "text": "1 1 1 1 1 1 0 1 1"
+                    "text": "0 0 1 1 0 1 0 0 1"
                 }
             },
             {
@@ -3757,7 +4100,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1176.0, 2188.0, 258.0, 22.0 ],
-                    "text": "C5 D#4 C4 G3 D#3 G2 D#2 C2 C1"
+                    "text": "G4 F4 D#4 C4 A#3 G3 G2 D2 C2"
                 }
             },
             {
@@ -3768,7 +4111,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1582.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "C1"
+                    "text": "C2"
                 }
             },
             {
@@ -3779,7 +4122,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1532.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "C2"
+                    "text": "D2"
                 }
             },
             {
@@ -3790,7 +4133,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1484.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "D#2"
+                    "text": "G2"
                 }
             },
             {
@@ -3801,7 +4144,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1432.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "G2"
+                    "text": "G3"
                 }
             },
             {
@@ -3812,7 +4155,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1392.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "D#3"
+                    "text": "A#3"
                 }
             },
             {
@@ -3823,7 +4166,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1348.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "G3"
+                    "text": "C4"
                 }
             },
             {
@@ -3834,7 +4177,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1302.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "C4"
+                    "text": "D#4"
                 }
             },
             {
@@ -3845,7 +4188,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1258.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "D#4"
+                    "text": "F4"
                 }
             },
             {
@@ -3856,7 +4199,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1216.0, 2298.0, 37.33333444595337, 22.0 ],
-                    "text": "C5"
+                    "text": "G4"
                 }
             },
             {
@@ -3889,7 +4232,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1252.0, 1792.0, 50.0, 22.0 ],
-                    "text": "19"
+                    "text": "0"
                 }
             },
             {
@@ -3910,7 +4253,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1252.0, 1756.0, 50.0, 22.0 ],
-                    "text": "73"
+                    "text": "27"
                 }
             },
             {
@@ -4121,8 +4464,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 553.5876325368881, 558.0, 80.0, 22.0 ],
-                    "text": "loadmess 0.8"
+                    "patching_rect": [ 553.5876325368881, 558.0, 87.0, 22.0 ],
+                    "text": "loadmess 0.32"
                 }
             },
             {
@@ -4164,7 +4507,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 304.000009059906, 1348.0000401735306, 150.0, 20.0 ],
+                    "patching_rect": [ 149.33333778381348, 1232.0000367164612, 150.0, 20.0 ],
                     "text": "test sample library"
                 }
             },
@@ -4638,7 +4981,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 304.000009059906, 1270.6667045354843, 137.0, 22.0 ],
+                    "patching_rect": [ 149.33333778381348, 1154.666701078415, 137.0, 22.0 ],
                     "text": "r trigger-random-sample"
                 }
             },
@@ -4661,7 +5004,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 304.000009059906, 1305.3333722352982, 24.0, 24.0 ]
+                    "patching_rect": [ 149.33333778381348, 1189.3333687782288, 24.0, 24.0 ]
                 }
             },
             {
@@ -4692,15 +5035,6 @@
             },
             {
                 "box": {
-                    "id": "obj-270",
-                    "maxclass": "ezdac~",
-                    "numinlets": 2,
-                    "numoutlets": 0,
-                    "patching_rect": [ 304.000009059906, 1454.6667100191116, 45.0, 45.0 ]
-                }
-            },
-            {
-                "box": {
                     "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-335",
@@ -4708,7 +5042,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 304.000009059906, 1381.3333745002747, 38.0, 23.0 ],
+                    "patching_rect": [ 149.33333778381348, 1331.0, 38.0, 23.0 ],
                     "text": "start"
                 }
             },
@@ -4719,10 +5053,10 @@
                     "id": "obj-336",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 3,
-                    "outlettype": [ "signal", "signal", "bang" ],
-                    "patching_rect": [ 304.000009059906, 1416.0000422000885, 146.0, 23.0 ],
-                    "text": "play~ sample-library.1 2"
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "bang" ],
+                    "patching_rect": [ 149.33333778381348, 1386.6667079925537, 142.0, 23.0 ],
+                    "text": "play~ sample-library.13"
                 }
             },
             {
@@ -4890,96 +5224,6 @@
             },
             {
                 "box": {
-                    "id": "obj-129",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3658.0, 1190.0, 85.0, 22.0 ],
-                    "text": "s ranger-F5FF"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-131",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3552.0, 1190.0, 85.0, 22.0 ],
-                    "text": "s ranger-015A"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-143",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3442.0, 1190.0, 83.0, 22.0 ],
-                    "text": "s ranger-0018"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-145",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3334.0, 1190.0, 87.0, 22.0 ],
-                    "text": "s ranger-C16E"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-155",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3234.0, 1190.0, 87.0, 22.0 ],
-                    "text": "s ranger-8D5E"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-162",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3128.0, 1190.0, 83.0, 22.0 ],
-                    "text": "s ranger-0365"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-164",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 3028.0, 1190.0, 85.0, 22.0 ],
-                    "text": "s ranger-3AF6"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-167",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 2932.0, 1190.0, 86.0, 22.0 ],
-                    "text": "s ranger-82AA"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-169",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 2832.0, 1190.0, 83.0, 22.0 ],
-                    "text": "s ranger-5995"
-                }
-            },
-            {
-                "box": {
                     "format": 6,
                     "id": "obj-109",
                     "maxclass": "flonum",
@@ -5126,7 +5370,6 @@
                 "box": {
                     "angle": 270.0,
                     "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 0.28 ],
-                    "bordercolor": [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
                     "id": "obj-23",
                     "maxclass": "panel",
                     "mode": 0,
@@ -5173,14 +5416,8 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-167", 0 ],
-                    "source": [ "obj-101", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-164", 0 ],
-                    "source": [ "obj-103", 0 ]
+                    "destination": [ "obj-110", 1 ],
+                    "source": [ "obj-100", 0 ]
                 }
             },
             {
@@ -5248,32 +5485,46 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-162", 0 ],
-                    "source": [ "obj-105", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-155", 0 ],
-                    "source": [ "obj-107", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-145", 0 ],
-                    "source": [ "obj-109", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-103", 0 ],
                     "source": [ "obj-11", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-116", 0 ],
+                    "order": 1,
+                    "source": [ "obj-110", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-127", 1 ],
+                    "order": 0,
+                    "source": [ "obj-110", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-100", 0 ],
+                    "source": [ "obj-111", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-111", 0 ],
+                    "source": [ "obj-112", 6 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-161", 0 ],
                     "source": [ "obj-115", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-83", 0 ],
+                    "source": [ "obj-116", 0 ]
                 }
             },
             {
@@ -5314,14 +5565,42 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-112", 0 ],
+                    "order": 0,
+                    "source": [ "obj-124", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-335", 0 ],
+                    "order": 1,
+                    "source": [ "obj-124", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-109", 0 ],
                     "source": [ "obj-13", 0 ]
                 }
             },
             {
                 "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "order": 1,
+                    "source": [ "obj-130", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-3", 0 ],
                     "source": [ "obj-130", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-758", 0 ],
+                    "order": 0,
+                    "source": [ "obj-130", 1 ]
                 }
             },
             {
@@ -5736,6 +6015,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "source": [ "obj-22", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-22", 0 ],
+                    "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-199", 0 ],
                     "source": [ "obj-264", 0 ]
                 }
@@ -5949,7 +6240,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-125", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-3", 0 ]
                 }
             },
@@ -5963,7 +6254,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-33", 0 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-3", 0 ]
                 }
             },
@@ -6520,18 +6811,33 @@
             {
                 "patchline": {
                     "destination": [ "obj-336", 0 ],
+                    "order": 2,
                     "source": [ "obj-335", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-270", 1 ],
+                    "destination": [ "obj-83", 0 ],
+                    "order": 0,
+                    "source": [ "obj-335", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-88", 0 ],
+                    "order": 1,
+                    "source": [ "obj-335", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
                     "source": [ "obj-336", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-270", 0 ],
+                    "destination": [ "obj-73", 0 ],
                     "source": [ "obj-336", 0 ]
                 }
             },
@@ -6771,6 +7077,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "source": [ "obj-38", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-383", 0 ],
                     "source": [ "obj-380", 0 ]
                 }
@@ -6983,14 +7295,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-285", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-425", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-571", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-425", 0 ]
                 }
             },
@@ -7035,14 +7347,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-286", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-443", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-572", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-443", 0 ]
                 }
             },
@@ -7087,14 +7399,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-287", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-467", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-573", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-467", 0 ]
                 }
             },
@@ -7257,14 +7569,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-562", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-498", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-97", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-498", 0 ]
                 }
             },
@@ -7417,14 +7729,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-290", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-520", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-577", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-520", 0 ]
                 }
             },
@@ -7463,14 +7775,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-289", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-526", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-576", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-526", 0 ]
                 }
             },
@@ -7509,14 +7821,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-288", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-533", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-574", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-533", 0 ]
                 }
             },
@@ -7601,14 +7913,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-292", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-546", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-579", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-546", 0 ]
                 }
             },
@@ -7661,14 +7973,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-291", 0 ],
-                    "order": 1,
+                    "order": 0,
                     "source": [ "obj-553", 0 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-578", 0 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-553", 0 ]
                 }
             },
@@ -7968,6 +8280,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-70", 0 ],
+                    "order": 0,
+                    "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-73", 1 ],
+                    "order": 1,
+                    "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-439", 1 ],
                     "source": [ "obj-711", 0 ]
                 }
@@ -8000,6 +8326,12 @@
                 "patchline": {
                     "destination": [ "obj-517", 0 ],
                     "source": [ "obj-727", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-73", 0 ]
                 }
             },
             {
@@ -8062,32 +8394,40 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-74", 2 ],
+                    "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-160", 0 ],
                     "source": [ "obj-80", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-143", 0 ],
-                    "source": [ "obj-90", 0 ]
+                    "destination": [ "obj-8", 1 ],
+                    "order": 1,
+                    "source": [ "obj-83", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-131", 0 ],
-                    "source": [ "obj-91", 0 ]
+                    "destination": [ "obj-89", 0 ],
+                    "order": 0,
+                    "source": [ "obj-83", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-129", 0 ],
-                    "source": [ "obj-93", 0 ]
+                    "destination": [ "obj-83", 0 ],
+                    "source": [ "obj-88", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-169", 0 ],
-                    "source": [ "obj-99", 0 ]
+                    "destination": [ "obj-85", 1 ],
+                    "source": [ "obj-89", 0 ]
                 }
             }
         ],
