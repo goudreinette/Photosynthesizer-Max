@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>open /Users/photosynthesizer/Desktop/Photosynthesizer-Max/photosynthesizer.maxpat</string>
+					<string>/usr/local/bin/node /Users/photosynthesizer/Desktop/photosynthesizer/currentranger-to-midi.js &amp; open /Users/photosynthesizer/Desktop/Photosynthesizer-Max/photosynthesizer.maxpat</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -392,19 +392,19 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>308C34B6-588D-42C8-9C60-F67979B3CB6C</key>
-		<dict>
-			<key>from</key>
-			<string>ECCC81CF-F653-4EC8-A20E-A3B62893E489 - ECCC81CF-F653-4EC8-A20E-A3B62893E489</string>
-			<key>to</key>
-			<string>CB5E29B4-9B7A-4D12-BA79-364F08C97D29 - CB5E29B4-9B7A-4D12-BA79-364F08C97D29</string>
-		</dict>
-		<key>C33DA26D-DCA2-4D6B-AB0D-41A1766BA858</key>
+		<key>5AAA5B50-971F-4D5D-9378-1C7177F5B830</key>
 		<dict>
 			<key>from</key>
 			<string>E3C53DB4-B76E-47C2-B770-770348B4C57F - E3C53DB4-B76E-47C2-B770-770348B4C57F</string>
 			<key>to</key>
 			<string>ECCC81CF-F653-4EC8-A20E-A3B62893E489 - ECCC81CF-F653-4EC8-A20E-A3B62893E489</string>
+		</dict>
+		<key>CBF58564-E91C-4B25-812C-9904E30B8A8D</key>
+		<dict>
+			<key>from</key>
+			<string>ECCC81CF-F653-4EC8-A20E-A3B62893E489 - ECCC81CF-F653-4EC8-A20E-A3B62893E489</string>
+			<key>to</key>
+			<string>CB5E29B4-9B7A-4D12-BA79-364F08C97D29 - CB5E29B4-9B7A-4D12-BA79-364F08C97D29</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
